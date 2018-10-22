@@ -1,0 +1,23 @@
+{
+  "name": "ideas_meet_results",
+  "version": "1.0.0",
+  "description": "This landing page is a related to our direct mail initiative. It is themed with Sass and Bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coafer/ideas_meet_results.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coafer/ideas_meet_results/issues"
+  },
+  "homepage": "https://github.com/coafer/ideas_meet_results#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
