@@ -19,6 +19,6 @@
   "homepage": "https://github.com/coafer/ideas_meet_results#readme",
   "dependencies": {
     "bootstrap": "^4.1.3",
-    "holderjs": "^2.9.4"
+    "holderjs": "^2.9.6"
   }
 }

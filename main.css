@@ -8623,12 +8623,6 @@ main-form {
     display: block;
     transition: transform 0.6s ease;
   }
-
-  /* left or forward direction */
-
-  /* farthest right hidden item must be abso position for animations */
-
-  /* right or prev direction */
 }
 @media screen and (min-width: 768px) and (prefers-reduced-motion: reduce) {
   .carousel-inner .active,
@@ -8652,7 +8646,7 @@ main-form {
   }
 }
 @media (min-width: 768px) {
-  .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+  .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
     position: absolute;
     top: 0;
     right: -33.3333%;
@@ -8662,33 +8656,11 @@ main-form {
   }
 }
 @media (min-width: 768px) {
-  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
-.carousel-item-next.carousel-item-left + .carousel-item,
-.carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
-.carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
-    position: relative;
-    transform: translate3d(-100%, 0, 0);
-    visibility: visible;
-  }
-}
-@media (min-width: 768px) {
   .carousel-inner .carousel-item-prev.carousel-item-right {
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
-    display: block;
-    visibility: visible;
-  }
-}
-@media (min-width: 768px) {
-  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
-.carousel-item-prev.carousel-item-right + .carousel-item,
-.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
-.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
-    position: relative;
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
     display: block;
     visibility: visible;
   }
