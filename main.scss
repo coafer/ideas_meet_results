@@ -14,7 +14,6 @@ main-form {
     .active + .carousel-item,
     .active + .carousel-item + .carousel-item {
       display: block;
-      @include transition($carousel-transition);
     }
 
     .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
@@ -32,11 +31,7 @@ main-form {
       transform: translate3d(0, 0, 0);
     }
 
-    .active.carousel-item
-      + .carousel-item
-      + .carousel-item
-      + .carousel-item
-      + .carousel-item {
+    .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
       position: absolute;
       top: 0;
       right: -33.3333%;
